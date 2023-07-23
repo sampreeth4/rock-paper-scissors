@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <main class="score-board">
+        <h2 class="choose-weapon" id="score-info">Choose your weapon</h2>
+        <h3 class="first-to-five" id="move-info">
+            First to score 5 points wins the game
+        </h3>
+        <div class="score-container">
+            <div class="score-box">
+                <div class="default-sign" id="player-sign">❔</div>
+                <p class="score" id="playerScore">Player: 0</p>
+            </div>
+            <div class="score-box">
+                <div class="default-sign" id="computer-sign">❔</div>
+                <p class="score" id="computerScore">Computer: 0</p>
+            </div>
+
+        </div>
+        <div class="buttons-container">
+            <button class="btn btn-square" id="rockBtn">
+                <div class="sign">✊</div>
+              </button>
+              <button class="btn btn-square" id="paperBtn">
+                <div class="sign">✋</div>
+              </button>
+              <button class="btn btn-square" id="scissorsBtn">
+                <div class="sign">✌</div>
+              </button>
+            </div>
+        </div>
+       
+    </main>
+    <footer class="footer">
+        <p class="footer-content">
+            Copyright © 2023 Sampreeth
+        </p>
+    </footer>
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+      </div>
+      <div class="overlay" id="overlay"></div>
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
