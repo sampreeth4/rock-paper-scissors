@@ -150,7 +150,7 @@ function updateScoreMessage(winner, playerSelection, computerSelection) {
     playerScore = 0
     computerScore = 0
     scoreInfo.textContent = 'Choose your weapon'
-    scoreMessage.textContent = 'First to score 5 points wins the game'
+    moveInfo.textContent = 'First to score 5 points wins the game'
     playerScoreGame.textContent = 'Player: 0'
     computerScoreGame.textContent = 'Computer: 0'
     playerSign.textContent = '❔'
